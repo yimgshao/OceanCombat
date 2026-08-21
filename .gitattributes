@@ -1,0 +1,24 @@
+# UE 二进制资产:标记为 binary(不做换行转换、不 diff/merge),且不走 LFS
+*.uasset binary
+*.umap   binary
+
+# 原始素材二进制类型
+*.3ds  binary
+*.bmp  binary
+*.exr  binary
+*.fbx  binary
+*.jpeg binary
+*.jpg  binary
+*.mov  binary
+*.mp3  binary
+*.mp4  binary
+*.obj  binary
+*.ogg  binary
+*.png  binary
+*.psd  binary
+*.tga  binary
+*.wav  binary
+*.xcf  binary
+
+# /RawContent 目录下所有文件按二进制处理
+/RawContent/**/* binary
