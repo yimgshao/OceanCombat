@@ -23,6 +23,9 @@
 # Do not ignore editor automation / tooling scripts.
 !/Scripts/**
 
+# Do not ignore readme doc.
+!/README.md
+
 # But exclude plugin build artifacts (compiled output, intermediate files).
 # These are regenerated on build and must not be committed.
 # Later rules win, so this overrides the /Plugins/** allow-rule above.
